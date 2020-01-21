@@ -1,7 +1,5 @@
 ul {
     list-style: none; /* Remove HTML bullets */
-    .flex-container {
-        display: flex;
-        flex-direction: row;
-      }
+    display: flex;
+    flex-direction: row;
 }
