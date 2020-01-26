@@ -1,5 +1,124 @@
 ul {
+    position: fixed;
+    margin-top: 0px;
+    top: 0px;
+    left: 0px;
     list-style: none; /* Remove HTML bullets */
     display: flex;
     flex-direction: row;
+    justify-content:center;
+    width: 96.5%;
+    background-color: #ffffff;
 }
+
+li{
+    padding: 15px; 
+}
+
+body{
+    position: relative;
+    top: 50px; 
+}
+
+.profilepicture {
+    justify-content: left;
+    display: block;
+    border-radius: 25px;
+    width: 350px;
+    height: 350px;
+    object-fit:cover;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto
+}
+
+.row{
+	display: flex;	
+}
+
+img{
+    border-radius: 5px;
+    margin: 15px;
+}
+
+a:link, a:visited {
+    border-radius: 5px;
+    background-color: lightblue;
+    color: black;
+    padding: 5px 5px;
+    /* border: 10px solid black; */
+    /* outline: 2px solid black; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: cyan;
+  }
+
+/* div{
+    margin: 20px;
+} */
+
+/*desktops*/
+/* .col-1 {flex-basis: 8.33%;}
+.col-2 {flex-basis: 16.66%;}
+.col-3 {flex-basis: 25%;}
+.col-4 {flex-basis: 33.33%;}
+.col-5 {flex-basis: 41.66%;}
+.col-6 {flex-basis: 50%;}
+.col-7 {flex-basis: 58.33%;}
+.col-8 {flex-basis: 66.66%;}
+.col-9 {flex-basis: 75%;}
+.col-10 {flex-basis: 83.33%;}
+.col-11 {flex-basis: 91.66%;}
+.col-12 {flex-basis: 100%;} */
+
+[class*="col"]{
+    flex-basis: 100%;
+}
+
+row {
+    flex-wrap:wrap
+}
+
+
+@media all and (min-width: 768px){
+
+    .col-1 {flex-basis: 8.33%;}
+    .col-2 {flex-basis: 16.66%;}
+    .col-3 {flex-basis: 25%;}
+    .col-4 {flex-basis: 33.33%;}
+    .col-5 {flex-basis: 41.66%;}
+    .col-6 {flex-basis: 50%;}
+    .col-7 {flex-basis: 58.33%;}
+    .col-8 {flex-basis: 66.66%;}
+    .col-9 {flex-basis: 75%;}
+    .col-10 {flex-basis: 83.33%;}
+    .col-11 {flex-basis: 91.66%;}
+    .col-12 {flex-basis: 100%;}
+}
+
+/* section{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+} */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+/*
+1/22
+cmd /
+*/
