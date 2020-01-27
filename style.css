@@ -21,6 +21,7 @@ body{
 }
 
 .profilepicture {
+    margin-left: 0px;
     justify-content: left;
     display: block;
     border-radius: 25px;
@@ -36,7 +37,9 @@ body{
 }
 
 .row{
-	display: flex;	
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;	
 }
 
 img{
@@ -87,7 +90,7 @@ row {
 }
 
 
-@media all and (min-width: 768px){
+@media only screen and (min-width: 768px){
 
     .col-1 {flex-basis: 8.33%;}
     .col-2 {flex-basis: 16.66%;}
@@ -101,6 +104,10 @@ row {
     .col-10 {flex-basis: 83.33%;}
     .col-11 {flex-basis: 91.66%;}
     .col-12 {flex-basis: 100%;}
+
+    .row{
+        flex-direction: row;
+    }
 }
 
 /* section{
