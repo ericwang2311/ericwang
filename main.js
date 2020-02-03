@@ -31,7 +31,7 @@ function renderNavbar(navbar){
 <nav>
     <ul>
         <li>
-                <a href="#about"  top:30px>
+            <a href="#about"  top:30px>
                     <i class="fas fa-user-circle"></i> About
                 </a>
         </li>
@@ -53,7 +53,7 @@ function renderNavbar(navbar){
 function renderAbout(about){ 
    return (
       `
-      <div class="row">
+      <div id="about" class="row">
         <div class="col-6">
           <h1 class="name"> ${about.name} </h1>
           <img src="${about.photo}" style="width: 70%; margin-left: 0px; border-radius: 25px" /> 
@@ -87,7 +87,7 @@ function renderLinks(links){
 function renderNews(news){
   return (
   `
-  <div class="row">
+  <div id="news" class="row">
     <h1 class="title"> ${news.title} </h1>
   </div>
 
@@ -152,7 +152,7 @@ function renderProjectPage(d) {
 <br>
 
   <div>
-      <div class="title"><a href="${d.id}"> <i class="fas fa-code"></i> ${d.title} </a></div>
+      <div class="title"><h1 "${d.id}"> <i class="fas fa-code"></i> ${d.title} </h1></div>
   </div>
   <div class="row">
       <div class="col-6">
@@ -183,7 +183,7 @@ function renderMainPage(data){
       ${renderAbout(data.about)}
       ${renderLinks(data.links)}
       ${renderNews(data.news)}
-      <h1>${data.misc.projectTitle}</h1>
+      <h1 id="projects" >${data.misc.projectTitle}</h1>
       ${renderProjects(data.projects)}
       ${renderProjectPage(data.projects)}
   `);
