@@ -31,9 +31,9 @@ function renderNavbar(navbar){
 <nav>
     <ul>
         <li>
-            <a href="#about"  top:30px>
-                <i class="fas fa-user-circle"></i> About
-            </a>
+                <a href="#about"  top:30px>
+                    <i class="fas fa-user-circle"></i> About
+                </a>
         </li>
         <li>
             <a href="#news">
@@ -74,10 +74,10 @@ function renderLinks(links){
   return (
     `
     <div>
-          <span><a href="?link=${links.resumePath}"> <i class="fas fa-file-alt"></i> ${links.resume} </a></span> |
-          <span><a href="?link=${links.twitterPath}"> <i class="fab fa-twitter-square"></i></a></span> |
-          <span><a href="?link=${links.linkedInPath}"> <i class="fab fa-linkedin"></i></a></span> |
-          <span><a href="?link=${links.githubPath}"> <i class="fab fa-github"></i></a></span> 
+          <span><a href="${links.resumePath}"> <i class="fas fa-file-alt"></i> ${links.resume} </a></span> |
+          <span><a href="${links.twitterPath}"> <i class="fab fa-twitter-square"></i></a></span> |
+          <span><a href="${links.linkedInPath}"> <i class="fab fa-linkedin"></i></a></span> |
+          <span><a href="${links.githubPath}"> <i class="fab fa-github"></i></a></span> 
     </div>
     
     `
@@ -123,8 +123,8 @@ function renderProjects(projects) {
           
 
           <div class="label" style="text-align:right">
-            <span><a href="?link=${d.materials}"> <i class="fas fa-info-circle"></i> ${d.materials[0].label} </a></span> |
-            <span><a href="?link=${d.materials}"> <i
+            <span><a href="${d.materials[0].path}"> <i class="fas fa-info-circle"></i> ${d.materials[0].label} </a></span> |
+            <span><a href="${d.materials[1].path}"> <i
             class="fab fa-github"></i> ${d.materials[1].label} </a></span>
           </div>
           
@@ -152,7 +152,7 @@ function renderProjectPage(d) {
 <br>
 
   <div>
-      <div class="title"><a href="?project=${d.id}"> <i class="fas fa-code"></i> ${d.title} </a></div>
+      <div class="title"><a href="${d.id}"> <i class="fas fa-code"></i> ${d.title} </a></div>
   </div>
   <div class="row">
       <div class="col-6">
