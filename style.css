@@ -125,7 +125,79 @@ h1 {
     font-size: 40px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 1/22
+
 cmd /
+
+*/
+
+/*
+1/27
+
+always use let
+//list matching:
+let [a, , b] = [1,2,3];
+
+let user = {
+    name: "Bob",
+    age: "22"
+};
+
+function c(x,y,z) {
+    return x+y+z;
+}
+
+console.log(c(...(x,y,z)));
+
+<script src'"javascript.js" defer></script> //this seperates loading and rendering then runs code
+
+
+//data.json
+fetch('data.json').then(resp=>resp.json())
+.then(data=>{
+    console.log(data);
+    const params = new URLSearchParams(window.loction.search);
+    console.log('projects.param', params.get('project'));
+    if (oarams.get('project')===null){
+        renderPage(data);}
+    else{
+        console.log('renderProjectPage');
+        let id = params.get('project')
+
+    
+    renderPage(data);
+});
+
+function renderPage(data){
+    document.querySelector('.container'.innerHTML = renderProjects(data.projects);
+}
+
+function renderProjects(projects){
+    return projects.map(d=>'
+    <div class="row">
+        div class="col">
+            <dic class = "title"><a href ="?project=${d.id}"> ${d.title} </a></div>
+        </div>
+        div class="col">
+            <img src= "${d.teaser}" width ="100%"/>
+        </div>
+    </div>
+
+function renderProjectPage(d)
 */

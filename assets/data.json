@@ -1,0 +1,100 @@
+{
+    "navbar": {
+        "about": "About",
+        "News": "News",
+        "Projects": "Projects"
+    },
+    "about": {
+        "name": "Eric Wang",
+        "title": "Student attending Boston College",
+        "photo": "assets/Eric_Wang.jpg",
+        "description": "Hi there! My name is Eric Wang and I'm a Computer Science student at Boston College!",
+        "email": "wangbna@bc.edu"
+    },
+    "links": {
+        "resume": "Resume",
+        "resumePath": "assets/Resume.pdf",
+        "twitterPath": "https://twitter.com/Wangatang_23",
+        "linkedInPath": "https://www.linkedin.com/in/eric-wang-87b38717b/",
+        "githubPath": "https://github.com/ericwang2311"
+
+    },
+    "news": {
+            "title": "News",
+            "info": "Nothing to report at the moment!",
+            "date": "Jan 25, 2020"
+        }
+    ,
+    "misc": {
+        "projectTitle": "Projects",
+        "return": "Return"
+    },
+    "projects": [
+
+        {
+            "id": "visualization",
+            "title": "Visualization of Problems Solved by Dynamic Programming and Traditional Recursion ",
+            "authors": "Jay Agrawal, Lurein Perera, Eric Wang, and Brian Ward",
+            "source": "Algorithms (CSCI3383), 2019",
+            "teaser": "assets/ALG_1.png",
+
+            "materials": [{
+                    "label": "Report",
+                    "path": "assets/Report.pdf"
+                },
+                {
+                    "label": "Github Link ",
+                    "path": "https://github.com/ericwang2311/algo-final-project"
+                }
+            ],
+            "description": "College-level Computer Science students are typically familiar with recursion as a go-to method of completing homework assignments or projects. Unfortunately, there exist more time-efficient techniques such as Dynamic Programming that aren't touched upon until later 3000 level courses. That being said, the aim of this class project was to create a beginner-friendly way of comparing the efficiency of Dynamic Programming and recursion simultaneously. The UI presents users with a sample problem like the Fibonacci Sequence and runs both Dynamic Programming and recursive calls to the problem. Not only does the program output the results, but it also shows the respective run-times of each method."
+        },
+
+
+
+        {
+            "id": "solomission",
+            "title": "Solo Mission (incomplete)",
+            "authors": "Eric Wang",
+            "source": "Personal Project, 2018",
+            "teaser": "assets/SM_1.png",
+            "materials": [{
+                    "label": "Link to the Video Series ",
+                    "path": "https://www.youtube.com/watch?v=mvlwZs2ehLU"
+                },
+                {
+                    "label": "Github Link ",
+                    "path": "https://github.com/ericwang2311/solo-mission"
+                }
+            ],
+            "description": "During the summer of 2018, I took interest in app development and followed a video series on how to make a basic phone game titled Solo Mission. The video series was created by Youtuber Matt Heaney and acts as a coding tutorial on how to develop a game from start to finish in XCode. The game itself is very similar to Space Invaders with its concept of spaceships, lasers, and seemingly endless enemy spaceships. While I had made decent progress into the series, I was soon caught up in other things and the personal project was left on hold. "
+        },
+
+
+
+        {
+            "id": "chomp",
+            "title": "Chomp",
+            "authors": "Eric Wang",
+            "source": "AP Computer Science, 2017",
+            "teaser": "assets/Ch_1.png",
+            "materials": [{
+                "label": "Placeholder Link",
+                "path": "https://www.youtube.com/watch?v=MTW4sIL9Dpw"
+            },
+            {
+
+
+                "label": "Github Link ",
+                "path": "https://github.com/ericwang2311/chomp"
+
+            }
+        ],
+            "description": "For my highschool AP Computer Science class I was tasked with creating the a.i. for the game Chomp. In Chomp the player and a.i.take turns chomping off pieces of a candy bar until there is a single piece left The person that takes the last piece of the candy bar (denoted by the X) loses the game. While the game may look simple my task in this project was to make sure that the a.i.could NEVER lose to the human player which definitely took a fair share of time. "
+        }
+    ]
+}
+
+
+
+
