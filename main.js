@@ -55,7 +55,7 @@ function renderAbout(about){
       `
       <div id="about" class="row">
         <div class="col-6">
-          <h1 class="name"> ${about.name} </h1>
+          <h1 class="animated bounceInDown"> ${about.name} </h1>
           <img src="${about.photo}" style="width: 70%; margin-left: 0px; border-radius: 25px" /> 
           <div class="title"> ${about.title} </div>
           <div class="email"> ${about.email} </div>
@@ -87,7 +87,7 @@ function renderLinks(links){
 function renderNews(news){
   return (
   `
-  <div id="news" class="row">
+  <div id="news" class="animated bounceInLeft" class="row">
     <h1 class="title"> ${news.title} </h1>
   </div>
 
@@ -152,7 +152,7 @@ function renderProjectPage(d) {
 <br>
 
   <div>
-      <div class="title"><h1 "${d.id}"> <i class="fas fa-code"></i> ${d.title} </h1></div>
+      <div class="title"><h1 "${d.id}" class="animated bounceInDown"> <i class="fas fa-code"></i> ${d.title} </h1></div>
   </div>
   <div class="row">
       <div class="col-6">
@@ -171,6 +171,12 @@ function renderProjectPage(d) {
     <div class = "description"> ${d.description} </div>
   </div>
   <br>
+  <div>
+  
+  <footer>Copyright © 2020 Eric Wang</footer>
+  
+  </div>
+  <br>
   </div>`;
 }
 
@@ -183,7 +189,7 @@ function renderMainPage(data){
       ${renderAbout(data.about)}
       ${renderLinks(data.links)}
       ${renderNews(data.news)}
-      <h1 id="projects" >${data.misc.projectTitle}</h1>
+      <h1 id="projects" class="animated bounceInLeft">${data.misc.projectTitle}</h1>
       ${renderProjects(data.projects)}
       ${renderProjectPage(data.projects)}
   `);
