@@ -143,7 +143,7 @@ function renderProjectPage(d) {
   <nav>
   <ul>
       <li>
-          <a href="../index.html" top:30px>
+          <a href="https://bcwebcourse.github.io/portfolio-ericwang2311/" top:30px>
               <i class="fas fa-user-circle"></i> Return
           </a>
       </li>
