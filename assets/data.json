@@ -19,15 +19,27 @@
         "githubPath": "https://github.com/ericwang2311"
 
     },
-    "news": {
-            "title": "News",
+    "news": [
+        {
             "info": "Nothing to report at the moment!",
             "date": "Jan 25, 2020"
+        },
+        {
+            "info": "Byleth from Fire Emblem: Three Houses comes to Smash Bros. Ultimate.",
+            "date": "Jan 28, 2020"
+        },
+        {
+            "info": "Nancy Pelosi tears Trumps' speech in half at The State of the Union.",
+            "date": "Feb 4, 2020"
+        },
+        {
+            "info": "Parasite wins Best Picture at the Oscars.",
+            "date": "Feb 10, 2020"
         }
-    ,
+    ],
     "misc": {
-        "projectTitle": "Projects",
-        "return": "Return"
+            "newstitle": "News",
+            "projectstitle": "Projects"
     },
     "projects": [
 
@@ -37,6 +49,7 @@
             "authors": "Jay Agrawal, Lurein Perera, Eric Wang, and Brian Ward",
             "source": "Algorithms (CSCI3383), 2019",
             "teaser": "assets/ALG_1.png",
+            "year": "2019",
 
             "materials": [{
                     "label": "Report",
@@ -58,6 +71,8 @@
             "authors": "Eric Wang",
             "source": "Personal Project, 2018",
             "teaser": "assets/SM_1.png",
+            "year": "2018",
+
             "materials": [{
                     "label": "Link to the Video Series ",
                     "path": "https://www.youtube.com/watch?v=mvlwZs2ehLU"
@@ -78,6 +93,8 @@
             "authors": "Eric Wang",
             "source": "AP Computer Science, 2017",
             "teaser": "assets/Ch_1.png",
+            "year": "2017",
+
             "materials": [{
                 "label": "Placeholder Link",
                 "path": "https://www.youtube.com/watch?v=MTW4sIL9Dpw"
