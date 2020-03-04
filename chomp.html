@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Eric Wang's Homepage</title>
+    <!-- favicon-->
+
+</head>
+
+<head>
+    <style>
+        /* THIS IS FOR SIDE-BY-SIDE IMAGES */
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html"><i class="fas fa-undo"></i> Go Back</a>
+                </li>
+            </ul>
+        </nav>
+        <section>
+            <h1 class="animated bounceInDown">Chomp</h1>
+            <div class="row">
+                <div class="column">
+                    <img src="assets/Ch_1.png" style="width:300px;height:200px;">
+                </div>
+                <div class="column">
+                    <img src="assets/Ch_2.png" style="width:300px;height:200px;">
+                </div>
+                <div class="column">
+                    <img src="assets/Ch_3.png" style="width:300px;height:200px;">
+                </div>
+            </div>
+            <div>
+                Eric Wang<br>
+            </div>
+            <div>
+                <em>AP Computer Science, 2017</em>
+            </div>
+            <div>
+                <p>
+                    For my highschool AP Computer Science class, I was tasked with creating the a.i. for the game
+                    "Chomp". In Chomp, the player and a.i. take turns "chomping" off pieces of a candy bar until there
+                    is a single piece left. The person that takes the last piece of the candy bar (denoted by the X)
+                    loses the game. While the game may look simple, my task in this project was to make sure that the
+                    a.i. could NEVER lose to the human player which definitely took a fair share of time.
+                </p>
+            </div>
+            <div>
+                <span><a href="https://github.com/ericwang2311/chomp" target="_blank"><i class="fab fa-github"></i>
+                        Github
+                        Link</a></span>
+            </div>
+        </section>
+        <footer>Copyright © 2020 Eric Wang</footer>
+    </div>
+
+</body>
+
+</html>
