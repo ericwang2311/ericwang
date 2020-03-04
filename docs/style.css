@@ -45,6 +45,8 @@ body{
 img{
     border-radius: 5px;
     margin: 15px;
+    max-width: 500px;
+    max-height: 400px;
 }
 
 a:link, a:visited {

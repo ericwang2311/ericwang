@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function renderAbout(about){ 
     return (
        `
@@ -6,7 +8,7 @@ export default function renderAbout(about){
                 <h1 class="animated bounceInDown"> 
                     ${about.name} 
                 </h1>
-                <img src="${about.photo}" style="width: 70%; margin-left: 0px; border-radius: 25px" /> 
+                <img src="${sample(about.photos)}" style="width: 70%; margin-left: 0px; border-radius: 25px" /> 
                 <div class="title">
                     ${about.title} 
                 </div>
