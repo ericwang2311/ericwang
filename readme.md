@@ -1,2 +1,2 @@
 # My Portfolio
-Cool portfolio yah?
+Looking cool Joker!
