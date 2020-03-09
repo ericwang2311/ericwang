@@ -11,6 +11,11 @@ ul {
     background-color: #ffffff;
 }
 
+h1 {
+    position:relative;
+    z-index: -1;
+}
+
 li{
     padding: 15px; 
 }

@@ -1,11 +1,11 @@
-export default function renderPageOfProject(d){
-    document.querySelector(".container").innerHTML = `
+export default function renderPageOfProject(d) {
+  document.querySelector(".container").innerHTML = `
         ${renderProjectPage(d)}
-    `
+    `;
 }
 
-function renderProjectPage(d){
-    return(`
+function renderProjectPage(d) {
+  return `
 
 
     <nav>
@@ -67,8 +67,5 @@ function renderProjectPage(d){
     </div>
 
 
-    <br>`
-
-    
-    );
+    <br>`;
 }

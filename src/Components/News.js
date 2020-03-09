@@ -1,9 +1,8 @@
-export default function renderNews(news, misc){
-    return (
-        `
-        <div id="news" class="animated bounceInLeft" class="row">
-            <h1 class="title"> ${misc.newstitle} </h1>
-        </div>
+export default function renderNews(news, misc) {
+  return `
+        <h1 id="news" class="animated bounceInLeft" class="row">
+            ${misc.newstitle}
+        </h1>
 
         <div class="search">
             <input type="search" name='news' placeholder="Search News...">
@@ -11,12 +10,13 @@ export default function renderNews(news, misc){
     
         <div class = "news-list">
             ${renderNewsItems(news)}
-        </div>`
-    )
+        </div>`;
 }
 
-export function renderNewsItems(news){
-    return news.map(d=>
+export function renderNewsItems(news) {
+  return news
+    .map(
+      d =>
         `
         <br>
         
@@ -31,14 +31,17 @@ export function renderNewsItems(news){
             </div>
         </div>
         </br>`
-    ).join('');
+    )
+    .join("");
 }
 
-export function searchSort(data){
-    let input = document.querySelector('input[type=search]');
-    input.addEventListener('input',(event)=>{
-        console.log(event.target.value);
-        const filtered = data.news.filter(news=>news.info.toLowerCase().includes(event.target.value.toLowerCase()));
-        document.querySelector('.news-list').innerHTML = renderNewsItems(filtered);
-    });
+export function searchSort(data) {
+  let input = document.querySelector("input[type=search]");
+  input.addEventListener("input", event => {
+    console.log(event.target.value);
+    const filtered = data.news.filter(news =>
+      news.info.toLowerCase().includes(event.target.value.toLowerCase())
+    );
+    document.querySelector(".news-list").innerHTML = renderNewsItems(filtered);
+  });
 }

@@ -1,6 +1,5 @@
-export default function renderNavbar(navbar){
-    return (
-       `
+export default function renderNavbar(navbar) {
+  return `
         <nav>
             <ul>
                 <li>
@@ -19,6 +18,5 @@ export default function renderNavbar(navbar){
                     </a>
                 </li>
             </ul>
-        </nav>`
-    );
-  }
+        </nav>`;
+}

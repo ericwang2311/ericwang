@@ -1,5 +1,5 @@
-export default function renderProjects(projects){
-    return `
+export default function renderProjects(projects) {
+  return `
 
         <div class="filter">
             <label>
@@ -27,11 +27,10 @@ export default function renderProjects(projects){
         `;
 }
 
-  
-
-export function renderProjectItems(projects){
-    return projects.map(
-        d => `
+export function renderProjectItems(projects) {
+  return projects
+    .map(
+      d => `
 
         <div>
             <div class="title">
@@ -65,19 +64,27 @@ export function renderProjectItems(projects){
         </div>
         </div>
     <br>`
-    ).join('');
+    )
+    .join("");
 }
 
-export function radioSort(data){
-    let buttons = document.querySelectorAll('.filter input[name="filter"]');
-    buttons.forEach(cond=>cond.addEventListener('change', function(event){
-        let tag = event.target.value;
-        if(tag === "all"){
-            document.querySelector(".project-items").innerHTML = renderProjectItems(data.projects);
-        }
-        else{
-            const filtered = data.projects.filter(projects=>((projects.year===(event.target.value))));
-            document.querySelector('.project-items').innerHTML = renderProjectItems(filtered);
-        }
-    }));
+export function radioSort(data) {
+  let buttons = document.querySelectorAll('.filter input[name="filter"]');
+  buttons.forEach(cond =>
+    cond.addEventListener("change", function(event) {
+      let tag = event.target.value;
+      if (tag === "all") {
+        document.querySelector(".project-items").innerHTML = renderProjectItems(
+          data.projects
+        );
+      } else {
+        const filtered = data.projects.filter(
+          projects => projects.year === event.target.value
+        );
+        document.querySelector(".project-items").innerHTML = renderProjectItems(
+          filtered
+        );
+      }
+    })
+  );
 }
