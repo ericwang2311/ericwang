@@ -1,2 +1,2 @@
 # My Portfolio
-Looking cool Omer!!!
+"As unwavering as your convictions may be, the others also feel strongly about their beliefs. If you hate all those whose beliefs are different from yours, you will hate everyone eventually. People with exactly the same beliefs as you simply do not exist."
