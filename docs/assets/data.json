@@ -29,7 +29,7 @@
       "date": "Oct, 2016"
     },
     {
-      "info": "Began studyng at Boston College as a Compter Science B.A.",
+      "info": "Began studying at Boston College as a Computer Science B.A.",
       "date": "Aug, 2017"
     },
     {
@@ -43,6 +43,18 @@
     {
       "info": "Finished prototype visualizer for Algorithms project.",
       "date": "Dec, 2019"
+    },
+    {
+      "info": "Completed the website known as Cardbored.",
+      "date": "Apr, 2020"
+    },
+    {
+      "info": "Hired on as an App Developer for Boston College's School of Social Work.",
+      "date": "May, 2020"
+    },
+    {
+      "info": "Hired on as Front Desk staff for Courageous Sailing.",
+      "date": "Jul, 2020"
     }
   ],
   "misc": {
@@ -50,6 +62,46 @@
     "projectstitle": "Projects"
   },
   "projects": [
+    {
+      "id": "atig",
+      "title": "Refugee Family Interventionist App ",
+      "authors": "Thomas Ronan, Alejandra Sanchez, and Eric Wang",
+      "source": "Boston College RPCA, 2020",
+      "teaser": "assets/atig.png",
+      "year": "2020",
+
+      "materials": [
+        {
+          "label": "RPCA Website",
+          "path": "https://www.bc.edu/content/bc-web/schools/ssw/sites/rpca/about.html"
+        },
+        {
+          "label": "",
+          "path": ""
+        }
+      ],
+      "description": "The Refugee Family Interventionist App was designed to serve as a manual during family intervention sessions. The app provides in-depth information, exercises, and other tips that are useful for families adjusting to U.S. life."
+    },
+    {
+      "id": "cardbored",
+      "title": "Cardbored ",
+      "authors": "Manoygya Acharya, Kamil Piskorz, Junhyung So, and Eric Wang",
+      "source": "Web Application Development (CSCI2254), 2020",
+      "teaser": "assets/cardBored.png",
+      "year": "2020",
+
+      "materials": [
+        {
+          "label": "Website Link",
+          "path": "https://bcwebcourse.github.io/creative-project-card-bored-games/"
+        },
+        {
+          "label": "Github Link ",
+          "path": "https://github.com/ericwang2311/cardbored"
+        }
+      ],
+      "description": "Cardbored is an informative website that gives users insight on group games like Uno and Monopoly.  Users can pick from a list of group games and view things such as background information, rules, and recommended strategies for the selected game."
+    },
     {
       "id": "visualization",
       "title": "Visualization of Problems Solved by Dynamic Programming and Traditional Recursion ",
@@ -68,7 +120,7 @@
           "path": "https://github.com/ericwang2311/algo-final-project"
         }
       ],
-      "description": "College-level Computer Science students are typically familiar with recursion as a go-to method of completing homework assignments or projects. Unfortunately, there exist more time-efficient techniques such as Dynamic Programming that aren't touched upon until later 3000 level courses. That being said, the aim of this class project was to create a beginner-friendly way of comparing the efficiency of Dynamic Programming and recursion simultaneously. The UI presents users with a sample problem like the 'Fibonacci Sequence' and runs both Dynamic Programming and recursive calls to the problem. Not only does the program output the results, but it also shows the respective run-times of each method."
+      "description": "College-level Computer Science students are typically familiar with recursion as a go-to method of completing homework assignments or projects. Unfortunately, there exist more time-efficient techniques such as Dynamic Programming that aren't touched upon until later 3000 level courses. That being said, this class project aimed to create a beginner-friendly way of comparing the efficiency of Dynamic Programming and recursion simultaneously. The UI presents users with a sample problem like the 'Fibonacci Sequence' and runs both Dynamic Programming and recursive calls to the problem. Not only does the program output the results, but it also shows the respective run-times of each method."
     },
 
     {
@@ -131,7 +183,7 @@
           "path": "https://github.com/ericwang2311/chomp"
         }
       ],
-      "description": "For my highschool AP Computer Science course, I was tasked with creating the a.i. for the game 'Chomp'. In Chomp, the player and a.i. take turns clearing off pieces of a candy bar until there is a single piece left. The person that takes the last piece of the candy bar (denoted by the X) loses the game. While the game may look simple, my task in this project was to make sure that the a.i. could NEVER lose to the human player which proved to be a formidable undertaking. "
+      "description": "For my high school AP Computer Science course, I was tasked with creating the a.i. for the game 'Chomp'. In Chomp, the player and a.i. take turns clearing off pieces of a candy bar until there is a single piece left. The person that takes the last piece of the candy bar (denoted by the X) loses the game. While the game may look simple, my task in this project was to make sure that the a.i. could NEVER lose to the human player which proved to be a formidable undertaking. "
     }
   ]
 }
