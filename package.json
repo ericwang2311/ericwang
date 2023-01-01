@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/ericwang2311/official_portfolio_website#readme",
   "devDependencies": {
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
